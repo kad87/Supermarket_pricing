@@ -1,8 +1,9 @@
-package main;
+import com.kad.supermarket.services.PricingService;
 
 public class programMain {
 	public static void main(String[] args) {
-		CartManager ck = new CartManager();
+		/*
+		PricingService ck = new PricingService();
 		
 		// When the cart is empty check the contents
 		// This should throw an exception because the cart is empty
@@ -12,7 +13,6 @@ public class programMain {
 			// TODO Auto-generated catch block
 			System.out.println(e.toString());
 		}
-		
 		
 		// Here you add 3 quantities of item A
 		// and then print the total price and also review the cart
@@ -119,5 +119,7 @@ public class programMain {
 		}
 		Double totalPrice7 = ck.calculateTotalPrice(ck.groceriesList);
 		System.out.println("Total Price: " + totalPrice7);
+	*/
 	}
+
 }
